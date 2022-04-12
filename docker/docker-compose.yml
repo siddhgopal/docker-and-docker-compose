@@ -1,9 +1,0 @@
-version: '3'
-service:
- myapp1: 
- image: {{ name }}
- ports:
-    - "8080:80" 
-
- database : 
-  image: nginx
